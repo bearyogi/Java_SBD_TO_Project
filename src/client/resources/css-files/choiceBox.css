@@ -1,0 +1,4 @@
+.choiceBox .context-menu { -fx-background-color: #525252; }
+.choiceBox .menu-item:focused { -fx-background-color: #353849; }
+.choiceBox .menu-item > .label { -fx-text-fill: white; }
+.choiceBox .menu-item:focused > .label { -fx-text-fill: white; }

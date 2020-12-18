@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #413b3b;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.java.controllers.AdminController">
+        <Label layoutY="-2.0" prefHeight="49.0" prefWidth="1028.0" style="-fx-background-color: #525252;" text=" Widok Admina" textFill="WHITE">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+        <Button fx:id="logoutButton" layoutX="864.0" mnemonicParsing="false" onMouseClicked="#logOutButton" prefHeight="45.0" prefWidth="164.0" style="-fx-background-color: #525252;" text="Wyloguj się" textFill="WHITE">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Button>
+      <Label fx:id="clockLabel" layoutX="263.0" layoutY="-1.0" prefHeight="32.0" prefWidth="183.0" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+</AnchorPane>
